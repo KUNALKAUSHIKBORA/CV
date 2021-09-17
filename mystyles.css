@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -158,3 +158,38 @@ button:hover{cursor: pointer}
   margin: 10px;
 }
 
+.mainSkills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.skills {
+  width: 90%;
+  display: grid;
+}
+
+.PS {
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  color: #ccc;
+  text-align: center;
+  font-weight: 500;
+}
+
+.skills1, .skills2 {
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  color: #ccc;
+}
+
+.role {
+  width: 90%;
+  color: #ccc;
+}
+
+.role h3 {
+  font-size: 1.3em;
+  text-align: right;
+  letter-spacing: 2px;
+}
