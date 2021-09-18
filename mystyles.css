@@ -158,6 +158,12 @@ button:hover{cursor: pointer}
   margin: 10px;
 }
 
+
+.Hunjoni {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .mainSkills {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -165,8 +171,9 @@ button:hover{cursor: pointer}
 }
 
 .skills {
-  width: 90%;
+  width: 100%;
   display: grid;
+  padding-right: 20px;
 }
 
 .PS {
@@ -184,12 +191,28 @@ button:hover{cursor: pointer}
 }
 
 .role {
-  width: 90%;
+  width: 100%;
   color: #ccc;
+  padding-left: 20px;
 }
 
 .role h3 {
   font-size: 1.3em;
   text-align: right;
   letter-spacing: 2px;
+}
+
+.vl {
+  border-left: 1px solid #fff;
+  height: 360px;
+  position: absolute;
+  left: 50%;
+  top: 1520px;
+}
+
+
+/* Media Query */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  
 }
