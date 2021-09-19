@@ -7,6 +7,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .background-image {
@@ -56,7 +57,7 @@ nav {
 
 
 section.container{
-    min-width: 500px;
+    min-width: auto;
     margin: 10% auto;
     text-align: center;
   }
@@ -214,5 +215,125 @@ button:hover{cursor: pointer}
 /* Media Query */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  
+  .nav-wrapper .brand-logo {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+  }
+  .bioData button {
+    width: 3vw;
+    height: 1vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  button:before {
+    font-size: 15px;
+  }
+  button div{
+        font-size: 15px;
+  }
+  .bioData a {
+    font-size: 15px;
+  }
+  .sidenav {
+    width: 200px;
+  }
+  .sidenav li {
+    text-align: center;
+  }
+
+  .main h2 {
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  font-weight: 900;
+  }
+
+  .Personal-Info {
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+
+  .main1 {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px;
+  }
+
+  .main2 {
+  text-align: center;
+  font-size: 1em;
+  margin: 0;
+  padding-bottom: 20px;
+  }
+
+  #about h2 {
+    font-size: 1.2em;
+  }
+
+  #about h3 {
+    font-size: .9em;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+  .PS {
+    font-size: 1.2em;
+  }
+
+  .vl {
+    display: none;
+  }
+  .skillsDivider {
+    
+  }
+  .mainSkills {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .skills {
+    padding: 0;
+  }
+  .skills1 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .skills2 {
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .role {
+    padding: 0;
+    font-style: italic;
+  } 
+  .role h3 {
+    text-align: center;
+    font-size: 1em;
+  }
+
+  .Hunjoni {
+    border: 1px solid #fff;
+  }
+}
+
+
+/* Footer */
+
+footer {
+  opacity: .6;
+}
+.footer-copyright div {
+  text-align: center;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
