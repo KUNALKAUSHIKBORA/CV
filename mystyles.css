@@ -338,6 +338,21 @@ footer .row {
   justify-content: center;
 }
 
+footer ul li a i {
+  font-size: 25px;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  transition: 0.8s;
+  text-align: center;
+}
+
+footer ul li a i:hover {
+  transform: scale(1.4);
+}
+
+
+
 
 @media (max-width: 1199px) {
   .animated {
