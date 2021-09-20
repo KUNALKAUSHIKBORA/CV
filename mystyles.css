@@ -168,7 +168,7 @@ button:hover{cursor: pointer}
 
 .mainSkills {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 0.1fr 1fr;
   align-items: center;
 }
 
@@ -206,12 +206,8 @@ button:hover{cursor: pointer}
 
 .vl {
   border-left: 1px solid #fff;
-  height: 360px;
-  position: absolute;
-  left: 50%;
-  top: 1520px;
+  height: 30vh;
 }
-
 
 /* Media Query */
 /* Extra small devices (portrait phones, less than 576px) */
