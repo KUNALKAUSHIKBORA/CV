@@ -109,6 +109,7 @@ button:hover{cursor: pointer}
 #about {
   z-index: 100;
   color: #ffffff;
+  margin-top: 50px;
 }
 
 #about h2 {
